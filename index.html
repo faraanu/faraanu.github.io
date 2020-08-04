@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style> 
@@ -90,6 +90,50 @@
                 margin-bottom: 25px;
                 border-radius: 3px;
             }
+            article {
+                padding: 25px;
+                -moz-box-sizing: border-box; 
+                -webkit-box-sizing: border-box; 
+                box-sizing: border-box; 
+                width: 100%;
+                border: 2px solid rgba(8, 9, 7, 0.5);
+                box-shadow: 0px 3px 10px rgba(8, 9, 7, 0.2);
+                transition-duration: 0.1s;
+            }
+            article:hover {
+                transition-duration: 0.1s;
+                box-shadow: 0px 3px 10px rgba(8, 9, 7, 0.5);
+            }
+            article .project-image {
+                -moz-box-sizing: border-box; 
+                -webkit-box-sizing: border-box; 
+                box-sizing: border-box;
+                margin: auto;
+                max-width: 600px;
+                margin-bottom: 7px;
+            }
+            article img {
+                width: 100%;
+                border: 5px solid rgba(8, 9, 7, 0.5);
+                border-radius: 3px;
+            }
+            article h2 {
+                margin-top: -10px;
+                color:#cfcfcf75;  
+                display: inline-block;
+            }
+            article h2:first-child {
+                color: #ccc; 
+                display: inline-block;
+            }
+            article p {
+                text-align: justify;
+            }
+            article .article-links {
+                max-width: 600px;
+                text-align: center;
+                margin: 0 auto;
+            }
             aside {
                 -moz-box-sizing: border-box; 
                 -webkit-box-sizing: border-box; 
@@ -138,6 +182,11 @@
                 text-align: center;
                 background-color: rgba(83, 94, 72, 0.1);
                 box-shadow: 0px 3px 10px rgba(8, 9, 7, 0.2);
+                transition-duration: 0.1s;
+            }
+            .skills:hover {
+                transition-duration: 0.1s;
+                box-shadow: 0px 3px 10px rgba(8, 9, 7, 0.5);
             }
             .skills th {
                 background-color: #060810;
@@ -233,13 +282,20 @@
                 </section>
                 <section>
                     <h1>Projects</h1>
-                    <img src="res/neon.jpg" width="100%"/>
-                    <p> 
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Labore, modi. Dolorum illo repellendus molestiae aperiam 
-                        quidem eum! Doloribus, assumenda saepe tempora, expedita 
-                        unde tenetur id sequi laboriosam quia, nesciunt molestias.
-                    </p>
+                    <article>
+                        <h2>Space Defenders&#160;</h2>
+                        <h2>-&#160;January 2017</h2>
+                        <div class="project-image">
+                            <a href="res/space-games.jpg"><img src="res/space-games.jpg"/></a>
+                        </div>
+                        <p> 
+                            Utilized Javascript, HTML, and CSS to create Space Defenders. Space defenders is a game where you have to shoot down as many enemy ships before your ship gets destroyed.
+                        </p>
+                        <br>
+                        <div class="article-links">
+                            <a class="github-button" href="https://github.com/far2077/Space-Games" aria-label="View on GitHub">View on Github</a>
+                        </div>
+                    </article>
                 </section>
             </div>
             <div class="aside-body">
