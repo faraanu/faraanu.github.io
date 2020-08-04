@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style> 
             @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -128,7 +130,6 @@
             aside ul {
                 padding-left: 20px;
             }
-
             .skills {
                 margin-top: 10px;
                 margin-bottom: 10px;
@@ -155,7 +156,6 @@
             td:last-child { border-right:none; }
             tr:first-child { border-top:none; }
             tr:last-child { border-bottom:none; }
-
             /* Contact */
             input[type=text], textarea {
                 width: 100%; 
@@ -174,7 +174,6 @@
                 transition-duration: 0.25s;
                 background-color: #80715b85;
             }
-
             input[type=submit] {
                 background-color: teal;
                 color: white;
@@ -184,7 +183,6 @@
                 cursor: pointer;
                 transition-duration: 0.15s;
             }
-
             input[type=submit]:hover {
                 transition-duration: 0.2s;
                 background-color: #752133;
@@ -192,8 +190,6 @@
             input[type=submit]:hover {
                 cursor:not-allowed;
             }
-
-            
         </style>
     </head>
     <body>
@@ -227,7 +223,6 @@
                             <td>HTML</td>
                             <td>Java</td>
                             <td>Python</td>
-                            
                         </tr>
                         <tr>
                             <td>CSS</td>
@@ -260,13 +255,9 @@
                     <h2>Contact</h2>
                     <form method="POST" action="contact-form.php">
                         <input type="text" id="name" name="name" placeholder="Your name">
-                    
                         <input type="text" id="email" name="email" placeholder="Your email">
-
                         <input type="text" id="subject" name="subject" placeholder="Subject">
-                    
                         <textarea id="message" name="message" placeholder="Message..." style="height:100px"></textarea>
-
                         <input type="submit" value="Submit" disabled>
                       </form>
                 </aside>
