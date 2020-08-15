@@ -1,98 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+
     <head>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <script src="script.js"></script>
+        <!-- Webpage Icon -->
         <link rel="icon" href="res/icon.ico">
-        <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Misc  -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <!-- Styles/Scripts -->
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <title> Faraan </title>
     </head>
-    <body>
-        <header>
-            <div class="header-body">
-                <h1> Faraan Usman </h1>
-                <div class="header-links">
-                    <a href="https://github.com/far2077"><i class="fa fa-github"> Github </i></a> 
-                </div>
-            </div>
-        </header>
-        <div class="content-body">
-            <div class="section-body">
-                <section>
-                    <h1> About Me </h1>
-                    <p>A second year student at the University of Guelph studying computer science.</p>
-                    <br>
-                    <h2> Skills </h2>
-                    <table class="skills">
-                        <tr>
-                            <th>Strong</th>
-                            <th>Intermediate</th>
-                            <th>Beginner</th>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>C</td>
-                            <td>C#</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>Java</td>
-                            <td>Python</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </table>
-                </section>
-                <section>
-                    <h1>Projects</h1>
-                    <br>
-                    <article>
-                        <div class="project-content">
-                            <div class="project-text">
-                                <h2>Space Defender <span>- January 2017</span></h2>
-                                <p> 
-                                    Utilized Javascript, HTML, and CSS to create Space Defender. Space defender is a game where you have to shoot down as many enemy ships before your ship gets destroyed.
-                                </p>
-                            </div>
-                            <div class="project-links">
-                                <a class="github-button" href="https://github.com/far2077/Space-Games" aria-label="View on GitHub">View on Github</a>
-                            </div>
-                        </div>
-                        <div class="project-img">
-                            <a href="res/space-games.jpg">
-                                <img src="res/space-games.jpg"/>
-                            </a>
-                        </div>
-                    </article>
-                </section>
-                
-            </div>
-            <div class="aside-body">
-                <aside>
-                        <h2>More</h2>
-                        <ul>
-                            <li><a href="#0">Resume</a></li>
-                            <li><a href="https://github.com/far2077">Github</a></li>
-                            <li><a href="#0">LinkedIn</a></li>
-                        </ul>
-                </aside>
-                <aside>
-                    <h2>Contact</h2>
-                    <form method="POST" action="contact-form.php">
-                        <input type="text" id="name" name="name" placeholder="Your name">
-                        <input type="text" id="email" name="email" placeholder="Your email">
-                        <input type="text" id="subject" name="subject" placeholder="Subject">
-                        <textarea id="message" name="message" placeholder="Message..." style="height:100px"></textarea>
-                        <input type="submit" value="Submit" disabled>
-                      </form>
-                </aside>
+
+<body>
+    <!-- 
+        Header/Title 
+    -->
+    <header>
+        <div class="header-body">
+            <h1> Faraan Usman </h1>
+            <div class="header-links">
+                <a href="https://github.com/far2077"><i class="fa fa-github"> Github </i></a>
             </div>
         </div>
-        <footer>
-        </footer>
-    </body>
+    </header>
+    <!-- 
+        Main Body 
+    -->
+    <div class="content-body">
+        <!-- 
+            Main Content 
+        -->
+        <div class="section-body">
+            <!-- 
+                About Me 
+            -->
+            <section>
+                <h1> About Me </h1>
+                <p>A second year student at the University of Guelph studying computer science.</p>
+                <br>
+                <h2> Skills </h2>
+                <table class="skills">
+                    <tr>
+                        <th>Strong</th>
+                        <th>Intermediate</th>
+                        <th>Beginner</th>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>C</td>
+                        <td>C#</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Java</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+            <!-- 
+                Projects 
+            -->
+            <section>
+                <h1>Projects</h1>
+                <br>
+                <article>
+                    <div class="project-content">
+                        <div class="project-text">
+                            <h2>Space Defender <span>- January 2017</span></h2>
+                            <p>
+                                Utilized Javascript, HTML, and CSS to create Space Defender. Space defender is a game
+                                where you have to shoot down as many enemy ships before your ship gets destroyed.
+                            </p>
+                        </div>
+                        <div class="project-links">
+                            <a class="github-button" href="https://github.com/far2077/Space-Games"
+                                aria-label="View on GitHub">View on Github</a>
+                        </div>
+                    </div>
+                    <div class="project-img">
+                        <a href="res/space-games.jpg">
+                            <img src="res/space-games.jpg" />
+                        </a>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <!-- 
+            Side Bar Contents
+        -->
+        <div class="aside-body">
+            <!-- 'More' links -->
+            <aside>
+                <h2>More</h2>
+                <ul>
+                    <li><a href="#0">Resume</a></li>
+                    <li><a href="https://github.com/far2077">Github</a></li>
+                    <li><a href="#0">LinkedIn</a></li>
+                </ul>
+            </aside>
+            <!-- 
+                Contact Form 
+            -->
+            <aside>
+                <h2>Contact</h2>
+                <form method="POST" action="contact-form.php">
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                    <input type="text" id="email" name="email" placeholder="Your email">
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea id="message" name="message" placeholder="Message..." style="height:100px"></textarea>
+                    <input type="submit" value="Submit" disabled>
+                </form>
+            </aside>
+        </div>
+    </div>
+    <!-- 
+        Footer 
+    -->
+    <footer>
+    </footer>
+</body>
+
 </html>
