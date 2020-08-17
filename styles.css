@@ -6,17 +6,17 @@
             */
             @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;0,700;1,600;1,700&display=swap');
-
-            body { background-color: #060810; color: #ccc; }
+            body { background-color: #060810; color: #ddd; }
             * { margin: 0; padding: 0; font-family:  Cormorant, Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-
-            a { color:teal; transition-duration: 0.15s; }
-            a:hover { transition-duration: 0.2s; color: #752133; }
-
-            h1 { font-size: 48px; margin-bottom: 10px; }
+            a { color:#00a192; transition-duration: 0.15s; }
+            a:hover { transition-duration: 0.2s; color: #ac192d; }
+            h1 { font-size: 58px; margin-bottom: 10px; }
             h2 { font-size: 26px; margin-bottom: 10px; }
             p, a { font-size: 1.1em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
             
+            /* 
+                Major Webpage Sections 
+            */
             .content-body { /* Not including header */
                 -moz-box-sizing: border-box; 
                 -webkit-box-sizing: border-box; 
@@ -53,7 +53,7 @@
 
             /* 
             
-                Header
+                Header (top)
             
             */
             header {
@@ -84,10 +84,10 @@
             .header-links  a {
                 font-size: 18px;
                 color: #ccc;
-                border: 2px solid teal;
+                border: 2px solid #00a192;
                 border-radius: 5px;
-                padding: 10px 10px 6px 10px;
-                background-color: rgba(8, 9, 7, 0.7);
+                padding: 10px 10px 10px 10px;
+                background-color: rgba(8, 9, 7, 0.9);
                 transition-duration: 0.15s;
             }
             .header-links  a:hover {
@@ -96,9 +96,9 @@
                 color: #fff;
             }
             .header-body h1 {
-                font-size: 87px;
+                font-size: 97px;
                 font-weight: 200;
-                color: teal;
+                color: #00a192;
             }
 
             /*
@@ -118,13 +118,13 @@
 
             /* 
             
-                Project Articles 
+                Project Articles (left side)
             
             */
             article {
                 max-width: 700px;
-                padding: 20px;
-                border: 3px solid black;
+                padding: 10px;
+                border: 0px solid #000000;
                 border-radius: 7px;
                 margin: 0 auto;
                 display: flex;
@@ -146,7 +146,7 @@
                 width: 100%;
                 border-radius: 3px;
                 margin: 0 auto 7px auto;
-                border: 3px solid black;
+                border: 1px solid #000000;
             }
             article .project-content {
                 flex-grow: 1;
@@ -159,7 +159,8 @@
                 padding: 0 10px 0px 10px;
             }
             article .project-text h2 {
-                color: #752133; 
+                font-size: 29px;
+                color: #ac192d;
             }
             article .project-text h2 span {
                 color: #666;
@@ -222,7 +223,7 @@
             tr:last-child { border-bottom:none; }
             /* 
             
-                Contact Form
+                Contact Form (aside on the right side) 
             
             */
             input[type=text], textarea {
@@ -243,7 +244,7 @@
                 background-color: #80715b85;
             }
             input[type=submit] {
-                background-color: teal;
+                background-color: #00a192;
                 color: white;
                 padding: 12px 20px;
                 border: none;
@@ -253,14 +254,14 @@
             }
             input[type=submit]:hover {
                 transition-duration: 0.2s;
-                background-color: #752133;
+                background-color: #ac192d;
             }
             input[type=submit]:hover {
                 cursor:not-allowed;
             }
             /* 
             
-                Footer
+                Footer (bottom)
             
             */
             footer {
