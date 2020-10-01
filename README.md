@@ -1,3 +1,3 @@
 ## Personal Website
 
-<https://faraan.github.io/>
+<https://faraanu.github.io/>
